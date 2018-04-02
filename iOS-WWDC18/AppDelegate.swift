@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  iOS-WWDC18
+//  Schoodule
 //
-//  Created by Nicholas Grana on 4/1/18.
-//  Copyright © 2018 Nicholas Grana. All rights reserved.
+//  Created by Nicholas Grana on 9/13/17.
+//  Copyright © 2017 Nicholas Grana. All rights reserved.
 //
 
 import UIKit
