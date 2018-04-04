@@ -7,21 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		436CF7D420717D4700BF4212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF7D320717D4700BF4212 /* AppDelegate.swift */; };
+		4343D35320717F1B00CA0B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343D35220717F1B00CA0B3A /* AppDelegate.swift */; };
 		436CF7D620717D4700BF4212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF7D520717D4700BF4212 /* ViewController.swift */; };
 		436CF7D920717D4700BF4212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7D720717D4700BF4212 /* Main.storyboard */; };
 		436CF7DB20717D4900BF4212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7DA20717D4900BF4212 /* Assets.xcassets */; };
 		436CF7DE20717D4900BF4212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7DC20717D4900BF4212 /* LaunchScreen.storyboard */; };
+		436CF80820717D6900BF4212 /* wood-side-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7E520717D6400BF4212 /* wood-side-3.jpeg */; };
+		436CF80920717D6900BF4212 /* wood-long-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7E620717D6400BF4212 /* wood-long-3.jpeg */; };
+		436CF80A20717D6900BF4212 /* wood-side-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7E720717D6400BF4212 /* wood-side-5.jpeg */; };
+		436CF80B20717D6900BF4212 /* wood-side-16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7E820717D6400BF4212 /* wood-side-16.jpeg */; };
+		436CF80C20717D6900BF4212 /* wood-long-14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7E920717D6400BF4212 /* wood-long-14.jpeg */; };
+		436CF80D20717D6900BF4212 /* wood-long-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7EA20717D6400BF4212 /* wood-long-4.jpeg */; };
+		436CF80E20717D6900BF4212 /* wood-side-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7EB20717D6500BF4212 /* wood-side-1.jpeg */; };
+		436CF80F20717D6900BF4212 /* wood-long-15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7EC20717D6500BF4212 /* wood-long-15.jpeg */; };
+		436CF81020717D6900BF4212 /* wood-long-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7ED20717D6500BF4212 /* wood-long-8.jpeg */; };
+		436CF81120717D6900BF4212 /* wood-long-16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7EE20717D6500BF4212 /* wood-long-16.jpeg */; };
+		436CF81220717D6900BF4212 /* wood-long-13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7EF20717D6500BF4212 /* wood-long-13.jpeg */; };
+		436CF81320717D6900BF4212 /* spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F020717D6500BF4212 /* spherical.jpg */; };
+		436CF81420717D6900BF4212 /* wood-side-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F120717D6500BF4212 /* wood-side-11.jpeg */; };
+		436CF81520717D6900BF4212 /* wood-long-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F220717D6500BF4212 /* wood-long-9.jpeg */; };
+		436CF81620717D6900BF4212 /* wood-side-15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F320717D6600BF4212 /* wood-side-15.jpeg */; };
+		436CF81720717D6900BF4212 /* wood-side-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F420717D6600BF4212 /* wood-side-7.jpeg */; };
+		436CF81820717D6900BF4212 /* wood-long-12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F520717D6600BF4212 /* wood-long-12.jpeg */; };
+		436CF81920717D6900BF4212 /* wood-side-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F620717D6600BF4212 /* wood-side-8.jpeg */; };
+		436CF81A20717D6900BF4212 /* wood-side-14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F720717D6600BF4212 /* wood-side-14.jpeg */; };
+		436CF81B20717D6900BF4212 /* wood-long-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F820717D6600BF4212 /* wood-long-1.jpeg */; };
+		436CF81C20717D6900BF4212 /* wood-long-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7F920717D6600BF4212 /* wood-long-11.jpeg */; };
+		436CF81D20717D6900BF4212 /* wood-side-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FA20717D6600BF4212 /* wood-side-2.jpeg */; };
+		436CF81E20717D6900BF4212 /* wood-side-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FB20717D6700BF4212 /* wood-side-9.jpeg */; };
+		436CF81F20717D6900BF4212 /* wood-long-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FC20717D6700BF4212 /* wood-long-7.jpeg */; };
+		436CF82020717D6900BF4212 /* wood-side-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FD20717D6700BF4212 /* wood-side-6.jpeg */; };
+		436CF82120717D6900BF4212 /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FE20717D6700BF4212 /* floor.png */; };
+		436CF82220717D6900BF4212 /* wood-long-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF7FF20717D6700BF4212 /* wood-long-6.jpeg */; };
+		436CF82320717D6900BF4212 /* wood-long-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80020717D6700BF4212 /* wood-long-5.jpeg */; };
+		436CF82420717D6900BF4212 /* wood-long-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80120717D6800BF4212 /* wood-long-2.jpeg */; };
+		436CF82520717D6900BF4212 /* wood-long-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80220717D6800BF4212 /* wood-long-10.jpeg */; };
+		436CF82620717D6900BF4212 /* wood-short-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80320717D6800BF4212 /* wood-short-1.jpeg */; };
+		436CF82720717D6900BF4212 /* wood-side-13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80420717D6800BF4212 /* wood-side-13.jpeg */; };
+		436CF82820717D6900BF4212 /* wood-side-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80520717D6800BF4212 /* wood-side-10.jpeg */; };
+		436CF82920717D6900BF4212 /* wood-side-12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80620717D6900BF4212 /* wood-side-12.jpeg */; };
+		436CF82A20717D6900BF4212 /* wood-side-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 436CF80720717D6900BF4212 /* wood-side-4.jpeg */; };
+		436CF83320717D9100BF4212 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82C20717D9000BF4212 /* GameManager.swift */; };
+		436CF83420717D9100BF4212 /* OverlayInfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */; };
+		436CF83520717D9100BF4212 /* 3DBlockTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82E20717D9100BF4212 /* 3DBlockTower.swift */; };
+		436CF83620717D9100BF4212 /* TowerMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82F20717D9100BF4212 /* TowerMaterial.swift */; };
+		436CF83720717D9100BF4212 /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83020717D9100BF4212 /* IntroScene.swift */; };
+		436CF83820717D9100BF4212 /* ARBlockTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83120717D9100BF4212 /* ARBlockTower.swift */; };
+		436CF83920717D9100BF4212 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83220717D9100BF4212 /* Side.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4343D35220717F1B00CA0B3A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436CF7D020717D4700BF4212 /* iOS-WWDC18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WWDC18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		436CF7D320717D4700BF4212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436CF7D520717D4700BF4212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		436CF7D820717D4700BF4212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436CF7DA20717D4900BF4212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436CF7DD20717D4900BF4212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436CF7DF20717D4900BF4212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436CF7E520717D6400BF4212 /* wood-side-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-3.jpeg"; sourceTree = "<group>"; };
+		436CF7E620717D6400BF4212 /* wood-long-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-3.jpeg"; sourceTree = "<group>"; };
+		436CF7E720717D6400BF4212 /* wood-side-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-5.jpeg"; sourceTree = "<group>"; };
+		436CF7E820717D6400BF4212 /* wood-side-16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-16.jpeg"; sourceTree = "<group>"; };
+		436CF7E920717D6400BF4212 /* wood-long-14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-14.jpeg"; sourceTree = "<group>"; };
+		436CF7EA20717D6400BF4212 /* wood-long-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-4.jpeg"; sourceTree = "<group>"; };
+		436CF7EB20717D6500BF4212 /* wood-side-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-1.jpeg"; sourceTree = "<group>"; };
+		436CF7EC20717D6500BF4212 /* wood-long-15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-15.jpeg"; sourceTree = "<group>"; };
+		436CF7ED20717D6500BF4212 /* wood-long-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-8.jpeg"; sourceTree = "<group>"; };
+		436CF7EE20717D6500BF4212 /* wood-long-16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-16.jpeg"; sourceTree = "<group>"; };
+		436CF7EF20717D6500BF4212 /* wood-long-13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-13.jpeg"; sourceTree = "<group>"; };
+		436CF7F020717D6500BF4212 /* spherical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spherical.jpg; sourceTree = "<group>"; };
+		436CF7F120717D6500BF4212 /* wood-side-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-11.jpeg"; sourceTree = "<group>"; };
+		436CF7F220717D6500BF4212 /* wood-long-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-9.jpeg"; sourceTree = "<group>"; };
+		436CF7F320717D6600BF4212 /* wood-side-15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-15.jpeg"; sourceTree = "<group>"; };
+		436CF7F420717D6600BF4212 /* wood-side-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-7.jpeg"; sourceTree = "<group>"; };
+		436CF7F520717D6600BF4212 /* wood-long-12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-12.jpeg"; sourceTree = "<group>"; };
+		436CF7F620717D6600BF4212 /* wood-side-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-8.jpeg"; sourceTree = "<group>"; };
+		436CF7F720717D6600BF4212 /* wood-side-14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-14.jpeg"; sourceTree = "<group>"; };
+		436CF7F820717D6600BF4212 /* wood-long-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-1.jpeg"; sourceTree = "<group>"; };
+		436CF7F920717D6600BF4212 /* wood-long-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-11.jpeg"; sourceTree = "<group>"; };
+		436CF7FA20717D6600BF4212 /* wood-side-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-2.jpeg"; sourceTree = "<group>"; };
+		436CF7FB20717D6700BF4212 /* wood-side-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-9.jpeg"; sourceTree = "<group>"; };
+		436CF7FC20717D6700BF4212 /* wood-long-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-7.jpeg"; sourceTree = "<group>"; };
+		436CF7FD20717D6700BF4212 /* wood-side-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-6.jpeg"; sourceTree = "<group>"; };
+		436CF7FE20717D6700BF4212 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		436CF7FF20717D6700BF4212 /* wood-long-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-6.jpeg"; sourceTree = "<group>"; };
+		436CF80020717D6700BF4212 /* wood-long-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-5.jpeg"; sourceTree = "<group>"; };
+		436CF80120717D6800BF4212 /* wood-long-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-2.jpeg"; sourceTree = "<group>"; };
+		436CF80220717D6800BF4212 /* wood-long-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-long-10.jpeg"; sourceTree = "<group>"; };
+		436CF80320717D6800BF4212 /* wood-short-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-short-1.jpeg"; sourceTree = "<group>"; };
+		436CF80420717D6800BF4212 /* wood-side-13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-13.jpeg"; sourceTree = "<group>"; };
+		436CF80520717D6800BF4212 /* wood-side-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-10.jpeg"; sourceTree = "<group>"; };
+		436CF80620717D6900BF4212 /* wood-side-12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-12.jpeg"; sourceTree = "<group>"; };
+		436CF80720717D6900BF4212 /* wood-side-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-side-4.jpeg"; sourceTree = "<group>"; };
+		436CF82C20717D9000BF4212 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayInfoScene.swift; sourceTree = "<group>"; };
+		436CF82E20717D9100BF4212 /* 3DBlockTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3DBlockTower.swift; sourceTree = "<group>"; };
+		436CF82F20717D9100BF4212 /* TowerMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowerMaterial.swift; sourceTree = "<group>"; };
+		436CF83020717D9100BF4212 /* IntroScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScene.swift; sourceTree = "<group>"; };
+		436CF83120717D9100BF4212 /* ARBlockTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBlockTower.swift; sourceTree = "<group>"; };
+		436CF83220717D9100BF4212 /* Side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +138,72 @@
 		436CF7D220717D4700BF4212 /* iOS-WWDC18 */ = {
 			isa = PBXGroup;
 			children = (
-				436CF7D320717D4700BF4212 /* AppDelegate.swift */,
+				436CF83B20717D9D00BF4212 /* Sources */,
+				436CF82B20717D7100BF4212 /* Resources */,
 				436CF7D520717D4700BF4212 /* ViewController.swift */,
+				4343D35220717F1B00CA0B3A /* AppDelegate.swift */,
 				436CF7D720717D4700BF4212 /* Main.storyboard */,
 				436CF7DA20717D4900BF4212 /* Assets.xcassets */,
 				436CF7DC20717D4900BF4212 /* LaunchScreen.storyboard */,
 				436CF7DF20717D4900BF4212 /* Info.plist */,
 			);
 			path = "iOS-WWDC18";
+			sourceTree = "<group>";
+		};
+		436CF82B20717D7100BF4212 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				436CF7FE20717D6700BF4212 /* floor.png */,
+				436CF7F020717D6500BF4212 /* spherical.jpg */,
+				436CF7F820717D6600BF4212 /* wood-long-1.jpeg */,
+				436CF80120717D6800BF4212 /* wood-long-2.jpeg */,
+				436CF7E620717D6400BF4212 /* wood-long-3.jpeg */,
+				436CF7EA20717D6400BF4212 /* wood-long-4.jpeg */,
+				436CF80020717D6700BF4212 /* wood-long-5.jpeg */,
+				436CF7FF20717D6700BF4212 /* wood-long-6.jpeg */,
+				436CF7FC20717D6700BF4212 /* wood-long-7.jpeg */,
+				436CF7ED20717D6500BF4212 /* wood-long-8.jpeg */,
+				436CF7F220717D6500BF4212 /* wood-long-9.jpeg */,
+				436CF80220717D6800BF4212 /* wood-long-10.jpeg */,
+				436CF7F920717D6600BF4212 /* wood-long-11.jpeg */,
+				436CF7F520717D6600BF4212 /* wood-long-12.jpeg */,
+				436CF7EF20717D6500BF4212 /* wood-long-13.jpeg */,
+				436CF7E920717D6400BF4212 /* wood-long-14.jpeg */,
+				436CF7EC20717D6500BF4212 /* wood-long-15.jpeg */,
+				436CF7EE20717D6500BF4212 /* wood-long-16.jpeg */,
+				436CF80320717D6800BF4212 /* wood-short-1.jpeg */,
+				436CF7EB20717D6500BF4212 /* wood-side-1.jpeg */,
+				436CF7FA20717D6600BF4212 /* wood-side-2.jpeg */,
+				436CF7E520717D6400BF4212 /* wood-side-3.jpeg */,
+				436CF80720717D6900BF4212 /* wood-side-4.jpeg */,
+				436CF7E720717D6400BF4212 /* wood-side-5.jpeg */,
+				436CF7FD20717D6700BF4212 /* wood-side-6.jpeg */,
+				436CF7F420717D6600BF4212 /* wood-side-7.jpeg */,
+				436CF7F620717D6600BF4212 /* wood-side-8.jpeg */,
+				436CF7FB20717D6700BF4212 /* wood-side-9.jpeg */,
+				436CF80520717D6800BF4212 /* wood-side-10.jpeg */,
+				436CF7F120717D6500BF4212 /* wood-side-11.jpeg */,
+				436CF80620717D6900BF4212 /* wood-side-12.jpeg */,
+				436CF80420717D6800BF4212 /* wood-side-13.jpeg */,
+				436CF7F720717D6600BF4212 /* wood-side-14.jpeg */,
+				436CF7F320717D6600BF4212 /* wood-side-15.jpeg */,
+				436CF7E820717D6400BF4212 /* wood-side-16.jpeg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		436CF83B20717D9D00BF4212 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				436CF82E20717D9100BF4212 /* 3DBlockTower.swift */,
+				436CF83120717D9100BF4212 /* ARBlockTower.swift */,
+				436CF82C20717D9000BF4212 /* GameManager.swift */,
+				436CF83020717D9100BF4212 /* IntroScene.swift */,
+				436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */,
+				436CF83220717D9100BF4212 /* Side.swift */,
+				436CF82F20717D9100BF4212 /* TowerMaterial.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +264,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436CF81A20717D6900BF4212 /* wood-side-14.jpeg in Resources */,
+				436CF82120717D6900BF4212 /* floor.png in Resources */,
 				436CF7DE20717D4900BF4212 /* LaunchScreen.storyboard in Resources */,
 				436CF7DB20717D4900BF4212 /* Assets.xcassets in Resources */,
 				436CF7D920717D4700BF4212 /* Main.storyboard in Resources */,
+				436CF81820717D6900BF4212 /* wood-long-12.jpeg in Resources */,
+				436CF81620717D6900BF4212 /* wood-side-15.jpeg in Resources */,
+				436CF82320717D6900BF4212 /* wood-long-5.jpeg in Resources */,
+				436CF80F20717D6900BF4212 /* wood-long-15.jpeg in Resources */,
+				436CF82520717D6900BF4212 /* wood-long-10.jpeg in Resources */,
+				436CF81F20717D6900BF4212 /* wood-long-7.jpeg in Resources */,
+				436CF81220717D6900BF4212 /* wood-long-13.jpeg in Resources */,
+				436CF80B20717D6900BF4212 /* wood-side-16.jpeg in Resources */,
+				436CF80820717D6900BF4212 /* wood-side-3.jpeg in Resources */,
+				436CF82920717D6900BF4212 /* wood-side-12.jpeg in Resources */,
+				436CF80C20717D6900BF4212 /* wood-long-14.jpeg in Resources */,
+				436CF82620717D6900BF4212 /* wood-short-1.jpeg in Resources */,
+				436CF81720717D6900BF4212 /* wood-side-7.jpeg in Resources */,
+				436CF81920717D6900BF4212 /* wood-side-8.jpeg in Resources */,
+				436CF81020717D6900BF4212 /* wood-long-8.jpeg in Resources */,
+				436CF81D20717D6900BF4212 /* wood-side-2.jpeg in Resources */,
+				436CF82720717D6900BF4212 /* wood-side-13.jpeg in Resources */,
+				436CF81E20717D6900BF4212 /* wood-side-9.jpeg in Resources */,
+				436CF81120717D6900BF4212 /* wood-long-16.jpeg in Resources */,
+				436CF82220717D6900BF4212 /* wood-long-6.jpeg in Resources */,
+				436CF80920717D6900BF4212 /* wood-long-3.jpeg in Resources */,
+				436CF80D20717D6900BF4212 /* wood-long-4.jpeg in Resources */,
+				436CF80A20717D6900BF4212 /* wood-side-5.jpeg in Resources */,
+				436CF82A20717D6900BF4212 /* wood-side-4.jpeg in Resources */,
+				436CF81C20717D6900BF4212 /* wood-long-11.jpeg in Resources */,
+				436CF82420717D6900BF4212 /* wood-long-2.jpeg in Resources */,
+				436CF82020717D6900BF4212 /* wood-side-6.jpeg in Resources */,
+				436CF82820717D6900BF4212 /* wood-side-10.jpeg in Resources */,
+				436CF81B20717D6900BF4212 /* wood-long-1.jpeg in Resources */,
+				436CF81320717D6900BF4212 /* spherical.jpg in Resources */,
+				436CF80E20717D6900BF4212 /* wood-side-1.jpeg in Resources */,
+				436CF81420717D6900BF4212 /* wood-side-11.jpeg in Resources */,
+				436CF81520717D6900BF4212 /* wood-long-9.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				436CF7D620717D4700BF4212 /* ViewController.swift in Sources */,
-				436CF7D420717D4700BF4212 /* AppDelegate.swift in Sources */,
+				436CF83520717D9100BF4212 /* 3DBlockTower.swift in Sources */,
+				436CF83920717D9100BF4212 /* Side.swift in Sources */,
+				4343D35320717F1B00CA0B3A /* AppDelegate.swift in Sources */,
+				436CF83720717D9100BF4212 /* IntroScene.swift in Sources */,
+				436CF83420717D9100BF4212 /* OverlayInfoScene.swift in Sources */,
+				436CF83820717D9100BF4212 /* ARBlockTower.swift in Sources */,
+				436CF83320717D9100BF4212 /* GameManager.swift in Sources */,
+				436CF83620717D9100BF4212 /* TowerMaterial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B5AP37L3T;
 				INFOPLIST_FILE = "iOS-WWDC18/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B5AP37L3T;
 				INFOPLIST_FILE = "iOS-WWDC18/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

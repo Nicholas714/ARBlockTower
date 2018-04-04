@@ -122,14 +122,6 @@ class OverlayInfoScene: SKScene {
         reset.position = CGPoint(x: frame.maxX - reset.frame.width / 2 - 20, y: frame.maxY * 0.1)
     }
     
-    override func update(_ currentTime: TimeInterval) {
-        let newSize = GameManager.current.is3D ? GameManager.current.scnSceneView.frame.size : GameManager.current.arSceneView.frame.size
-        if size != newSize {
-            size = newSize
-            updatePositions()
-        }
-    }
-    
 }
 
 class TowerButton: SKSpriteNode {

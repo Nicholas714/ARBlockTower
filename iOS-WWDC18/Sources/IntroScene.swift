@@ -3,13 +3,14 @@ import SpriteKit
 
 class IntroScene {
     
-    var sceneView = SCNView(frame: GameManager.current.rootSize)
+    var sceneView: SCNView
     let scene: SCNScene
     let cameraNode: SCNNode
     let exp1: SCNParticleSystem
     let exp2: SCNParticleSystem
     
     init() {
+        sceneView = SCNView(frame: GameManager.current.controller.view.frame)
         scene = SCNScene()
         sceneView.scene = scene
         sceneView.backgroundColor = UIColor.black
@@ -120,7 +121,7 @@ class IntroScene {
             self.intro = intro
             self.startLabel = SKLabelNode(text: "Tap anywhere when the iPad is in fullscreen and you are ready.")
             
-            super.init(size: GameManager.current.rootSize.size)
+            super.init(size: GameManager.current.controller.view.frame.size)
             
             let infoFont = UIFont.boldSystemFont(ofSize: 16.0).fontName
             
@@ -159,15 +160,6 @@ class IntroScene {
         func updatePositions() {
             startLabel.position = CGPoint(x: frame.midX, y: frame.midY - 2.5)
             startBackground.position = CGPoint(x: frame.midX - startBackground.frame.width / 2, y: frame.midY - startBackground.frame.height / 2)
-        }
-        
-        override func update(_ currentTime: TimeInterval) {
-            let newSize = intro.sceneView.frame.size
-            
-            if size != newSize {
-                size = newSize
-                updatePositions()
-            }
         }
         
         required init?(coder aDecoder: NSCoder) {

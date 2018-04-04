@@ -24,7 +24,6 @@ class ARTowerView: ARSCNView, ARSCNViewDelegate, UIGestureRecognizerDelegate {
         scene = jScene
         jScene.setup(for: self)
         delegate = self
-        //sceneView.debugOptions = .showPhysicsShapes
         
         // add tap gesture to move blocks
         let tap = UITapGestureRecognizer(target: self, action: #selector(tapGesture))
@@ -37,6 +36,8 @@ class ARTowerView: ARSCNView, ARSCNViewDelegate, UIGestureRecognizerDelegate {
         configuration.planeDetection = .horizontal
         
         session.run(configuration)
+        
+        print("6")
         
         overlaySKScene = OverlayInfoScene(size: frame.size, top: "Augmented Reality Scene", line1: "Move around the room and find a flat surface", line2: "Tap the yellow zone to place the tower", bottom: "WWDC18")
     }

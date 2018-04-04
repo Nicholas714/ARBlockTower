@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        GameManager.current.setup(controller: self)
+        
+        let intro = IntroScene()
+        view.addSubview(intro.sceneView)
     }
 
     override func didReceiveMemoryWarning() {
