@@ -50,8 +50,6 @@ class SCNTowerView: SCNView, ARSCNViewDelegate {
         overlaySKScene = OverlayInfoScene(size: frame.size, top: "3D Scene", line1: "Pan with your finger to look around the scene", line2: "Tap a block to push it", bottom: "WWDC18")
     }
     
-    // TODO: add button to switch to ARView
-    
     // MARK: Gestures
     
     var isSendingDirections = false
@@ -67,24 +65,6 @@ class SCNTowerView: SCNView, ARSCNViewDelegate {
             
             if first.node.name == "box" && !isSendingDirections {
                 isSendingDirections = true
-                
-                (overlaySKScene as! OverlayInfoScene).line1Label.fade()
-                (overlaySKScene as! OverlayInfoScene).line2Label.fade()
-                
-                let line1Label = (self.overlaySKScene as! OverlayInfoScene).line1Label
-                let line2Label = (self.overlaySKScene as! OverlayInfoScene).line2Label
-                
-                Timer.scheduledTimer(withTimeInterval: 0.6, repeats: false, block: { (_) in
-                    line1Label.text = "Push out each block until the tower falls"
-                    line2Label.text = "See how far you can stack up against gravity"
-                    line1Label.show()
-                    line2Label.show()
-                })
-                
-                Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { (_) in
-                    line1Label.fade()
-                    line2Label.fade()
-                })
             }
             
             switch side {

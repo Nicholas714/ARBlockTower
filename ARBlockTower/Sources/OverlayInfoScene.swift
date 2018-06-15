@@ -27,9 +27,6 @@ extension SKLabelNode {
 class OverlayInfoScene: SKScene {
 
     var title: SKLabelNode
-    var line1Label: SKLabelNode
-    var line2Label: SKLabelNode
-    var bottomLabel: SKLabelNode
     var reset: TowerButton
     var ar: TowerButton
 
@@ -51,9 +48,6 @@ class OverlayInfoScene: SKScene {
     
     init(size: CGSize, top: String, line1: String, line2: String, bottom: String) {
         title = SKLabelNode(text: top)
-        line1Label = SKLabelNode(text: line1)
-        line2Label = SKLabelNode(text: line2)
-        bottomLabel = SKLabelNode(text: bottom)
         reset = TowerButton(title: "Reset", onClick: resetGame)
         ar = TowerButton(title: "AR/3D", onClick: toggle)
         
@@ -70,28 +64,6 @@ class OverlayInfoScene: SKScene {
         title.fontSize = 23
         title.alpha = 0
         title.fontName = infoFont
-        
-        bottomLabel.fontSize = 16
-        bottomLabel.alpha = 0
-        bottomLabel.fontName = infoFont
-        
-        addChild(bottomLabel)
-        
-        line1Label.fontSize = 16
-        
-        line1Label.fontName = infoFont
-        line1Label.alpha = 0
-        addChild(line1Label)
-        
-        line2Label.fontSize = 16
-        
-        line2Label.fontName = infoFont
-        line2Label.alpha = 0
-        addChild(line2Label)
-        
-        [line1Label, line2Label, bottomLabel].forEach { (label) in
-            label.show()
-        }
     
         addChild(reset)
         addChild(ar)
@@ -114,9 +86,6 @@ class OverlayInfoScene: SKScene {
     }
     
     func updatePositions() {
-        bottomLabel.position = CGPoint(x: frame.midX, y: 10)
-        line2Label.position = CGPoint(x: frame.midX, y: frame.height - 125)
-        line1Label.position = CGPoint(x: frame.midX, y: frame.height - 100)
         title.position = CGPoint(x: frame.midX, y: frame.height - 60)
         ar.position = CGPoint(x: frame.minX + reset.frame.width / 2 + 20, y: frame.maxY * 0.1)
         reset.position = CGPoint(x: frame.maxX - reset.frame.width / 2 - 20, y: frame.maxY * 0.1)

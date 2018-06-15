@@ -36,9 +36,7 @@ class ARTowerView: ARSCNView, ARSCNViewDelegate, UIGestureRecognizerDelegate {
         configuration.planeDetection = .horizontal
         
         session.run(configuration)
-        
-        print("6")
-        
+                
         overlaySKScene = OverlayInfoScene(size: frame.size, top: "Augmented Reality Scene", line1: "Move around the room and find a flat surface", line2: "Tap the yellow zone to place the tower", bottom: "WWDC18")
     }
     
@@ -105,23 +103,6 @@ class ARTowerView: ARSCNView, ARSCNViewDelegate, UIGestureRecognizerDelegate {
             if let first = arHit.first {
                 jScene.createTower(hit: first)
                 towerCenter = SCNVector3(x: first.worldTransform.columns.3.x, y: first.worldTransform.columns.3.y, z: first.worldTransform.columns.3.z)
-                (overlaySKScene as! OverlayInfoScene).line1Label.fade()
-                (overlaySKScene as! OverlayInfoScene).line2Label.fade()
-                
-                let line1Label = (self.overlaySKScene as! OverlayInfoScene).line1Label
-                let line2Label = (self.overlaySKScene as! OverlayInfoScene).line2Label
-                
-                Timer.scheduledTimer(withTimeInterval: 0.6, repeats: false, block: { (_) in
-                    line1Label.text = "Push out each block until the tower falls"
-                    line2Label.text = "See how far you can stack up against gravity"
-                    line1Label.show()
-                    line2Label.show()
-                })
-                
-                Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { (_) in
-                    line1Label.fade()
-                    line2Label.fade()
-                })
             }
             first.node.removeFromParentNode()
         } else {
@@ -129,9 +110,6 @@ class ARTowerView: ARSCNView, ARSCNViewDelegate, UIGestureRecognizerDelegate {
             
             if let povPos = pointOfView?.position {
                 let side = Side.camSide(cameraPosition: povPos, offset: towerCenter!)
-                
-                (overlaySKScene as! OverlayInfoScene).line1Label.fade()
-                (overlaySKScene as! OverlayInfoScene).line2Label.fade()
                 
                 if let body = first.node.physicsBody, !body.isAffectedByGravity {
                     for node in scene.rootNode.childNodes(passingTest: { (node, _) -> Bool in
@@ -237,7 +215,8 @@ class ARTowerScene: SCNScene, UIGestureRecognizerDelegate {
             }
         }
         
-        physicsWorld.gravity = SCNVector3(x: 0, y: -0.01, z: 0) 
+        physicsWorld.gravity = SCNVector3(x: 0, y: -0.01, z: 0)
+        // physicsWorld.gravity = SCNVector3(x: 0, y: -5, z: 0)
         
         let phy = SCNPhysicsBody(type: .dynamic, shape: SCNPhysicsShape(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0), options: nil))
         phy.isAffectedByGravity = false

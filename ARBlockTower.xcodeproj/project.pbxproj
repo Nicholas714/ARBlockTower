@@ -51,14 +51,13 @@
 		436CF83420717D9100BF4212 /* OverlayInfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */; };
 		436CF83520717D9100BF4212 /* 3DBlockTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82E20717D9100BF4212 /* 3DBlockTower.swift */; };
 		436CF83620717D9100BF4212 /* TowerMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF82F20717D9100BF4212 /* TowerMaterial.swift */; };
-		436CF83720717D9100BF4212 /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83020717D9100BF4212 /* IntroScene.swift */; };
 		436CF83820717D9100BF4212 /* ARBlockTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83120717D9100BF4212 /* ARBlockTower.swift */; };
 		436CF83920717D9100BF4212 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CF83220717D9100BF4212 /* Side.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4343D35220717F1B00CA0B3A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		436CF7D020717D4700BF4212 /* iOS-WWDC18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WWDC18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436CF7D020717D4700BF4212 /* ARBlockTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBlockTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436CF7D520717D4700BF4212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		436CF7D820717D4700BF4212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436CF7DA20717D4900BF4212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 		436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayInfoScene.swift; sourceTree = "<group>"; };
 		436CF82E20717D9100BF4212 /* 3DBlockTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3DBlockTower.swift; sourceTree = "<group>"; };
 		436CF82F20717D9100BF4212 /* TowerMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowerMaterial.swift; sourceTree = "<group>"; };
-		436CF83020717D9100BF4212 /* IntroScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScene.swift; sourceTree = "<group>"; };
 		436CF83120717D9100BF4212 /* ARBlockTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBlockTower.swift; sourceTree = "<group>"; };
 		436CF83220717D9100BF4212 /* Side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +120,7 @@
 		436CF7C720717D4600BF4212 = {
 			isa = PBXGroup;
 			children = (
-				436CF7D220717D4700BF4212 /* iOS-WWDC18 */,
+				436CF7D220717D4700BF4212 /* ARBlockTower */,
 				436CF7D120717D4700BF4212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,16 +128,16 @@
 		436CF7D120717D4700BF4212 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				436CF7D020717D4700BF4212 /* iOS-WWDC18.app */,
+				436CF7D020717D4700BF4212 /* ARBlockTower.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		436CF7D220717D4700BF4212 /* iOS-WWDC18 */ = {
+		436CF7D220717D4700BF4212 /* ARBlockTower */ = {
 			isa = PBXGroup;
 			children = (
-				436CF83B20717D9D00BF4212 /* Sources */,
 				436CF82B20717D7100BF4212 /* Resources */,
+				436CF83B20717D9D00BF4212 /* Sources */,
 				436CF7D520717D4700BF4212 /* ViewController.swift */,
 				4343D35220717F1B00CA0B3A /* AppDelegate.swift */,
 				436CF7D720717D4700BF4212 /* Main.storyboard */,
@@ -147,7 +145,7 @@
 				436CF7DC20717D4900BF4212 /* LaunchScreen.storyboard */,
 				436CF7DF20717D4900BF4212 /* Info.plist */,
 			);
-			path = "iOS-WWDC18";
+			path = ARBlockTower;
 			sourceTree = "<group>";
 		};
 		436CF82B20717D7100BF4212 /* Resources */ = {
@@ -198,7 +196,6 @@
 				436CF82E20717D9100BF4212 /* 3DBlockTower.swift */,
 				436CF83120717D9100BF4212 /* ARBlockTower.swift */,
 				436CF82C20717D9000BF4212 /* GameManager.swift */,
-				436CF83020717D9100BF4212 /* IntroScene.swift */,
 				436CF82D20717D9100BF4212 /* OverlayInfoScene.swift */,
 				436CF83220717D9100BF4212 /* Side.swift */,
 				436CF82F20717D9100BF4212 /* TowerMaterial.swift */,
@@ -209,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		436CF7CF20717D4700BF4212 /* iOS-WWDC18 */ = {
+		436CF7CF20717D4700BF4212 /* ARBlockTower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 436CF7E220717D4900BF4212 /* Build configuration list for PBXNativeTarget "iOS-WWDC18" */;
+			buildConfigurationList = 436CF7E220717D4900BF4212 /* Build configuration list for PBXNativeTarget "ARBlockTower" */;
 			buildPhases = (
 				436CF7CC20717D4700BF4212 /* Sources */,
 				436CF7CD20717D4700BF4212 /* Frameworks */,
@@ -221,9 +218,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-WWDC18";
+			name = ARBlockTower;
 			productName = "iOS-WWDC18";
-			productReference = 436CF7D020717D4700BF4212 /* iOS-WWDC18.app */;
+			productReference = 436CF7D020717D4700BF4212 /* ARBlockTower.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 436CF7CB20717D4600BF4212 /* Build configuration list for PBXProject "iOS-WWDC18" */;
+			buildConfigurationList = 436CF7CB20717D4600BF4212 /* Build configuration list for PBXProject "ARBlockTower" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -254,7 +251,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				436CF7CF20717D4700BF4212 /* iOS-WWDC18 */,
+				436CF7CF20717D4700BF4212 /* ARBlockTower */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +313,6 @@
 				436CF83520717D9100BF4212 /* 3DBlockTower.swift in Sources */,
 				436CF83920717D9100BF4212 /* Side.swift in Sources */,
 				4343D35320717F1B00CA0B3A /* AppDelegate.swift in Sources */,
-				436CF83720717D9100BF4212 /* IntroScene.swift in Sources */,
 				436CF83420717D9100BF4212 /* OverlayInfoScene.swift in Sources */,
 				436CF83820717D9100BF4212 /* ARBlockTower.swift in Sources */,
 				436CF83320717D9100BF4212 /* GameManager.swift in Sources */,
@@ -465,14 +461,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B5AP37L3T;
-				INFOPLIST_FILE = "iOS-WWDC18/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ARBlockTower/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasgrana.iOS-WWDC18";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocktower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,14 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B5AP37L3T;
-				INFOPLIST_FILE = "iOS-WWDC18/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ARBlockTower/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasgrana.iOS-WWDC18";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocktower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		436CF7CB20717D4600BF4212 /* Build configuration list for PBXProject "iOS-WWDC18" */ = {
+		436CF7CB20717D4600BF4212 /* Build configuration list for PBXProject "ARBlockTower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436CF7E020717D4900BF4212 /* Debug */,
@@ -510,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		436CF7E220717D4900BF4212 /* Build configuration list for PBXNativeTarget "iOS-WWDC18" */ = {
+		436CF7E220717D4900BF4212 /* Build configuration list for PBXNativeTarget "ARBlockTower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436CF7E320717D4900BF4212 /* Debug */,

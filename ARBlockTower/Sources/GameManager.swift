@@ -8,7 +8,7 @@ public class GameManager {
     
     var arSceneView: ARTowerView!
     var scnSceneView: SCNTowerView!
-    var is3D = true
+    var is3D = false 
     
     func setup(controller: ViewController) {
         self.controller = controller

@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         
         GameManager.current.setup(controller: self)
         
-        let intro = IntroScene()
-        view.addSubview(intro.sceneView)
+//        let intro = IntroScene()
+//       view.addSubview(intro.sceneView)
     }
 
     override func didReceiveMemoryWarning() {
