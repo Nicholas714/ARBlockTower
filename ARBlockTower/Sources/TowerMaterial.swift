@@ -51,8 +51,6 @@ class JMaterial {
             
             materials.append(material)
         } else {
-            // front, right, back, left, top, bottom
-            // small, long, small, long, long, long
             let short = JTexture.shortSides
             let long = JTexture.longSides
             let left = JTexture.leftSides
